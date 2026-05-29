@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { Car, CalendarCheck, ShieldCheck, MapPin, Star, Phone, CheckCircle, Menu, X } from "lucide-react";
+import { Car, CalendarCheck, ShieldCheck, MapPin, Star, Phone, Mail, CheckCircle, Menu, X } from "lucide-react";
 import logo from "./assets/logo.png";
 const Button = ({ children, className = "", ...props }) => (
   <button className={className} {...props}>
