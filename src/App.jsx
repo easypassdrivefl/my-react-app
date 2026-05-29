@@ -38,7 +38,8 @@ message: e.target.elements.message?.value || "",
       "Yu3Tx8h1wGc-phNmE"
     )
     .then(() => {
-      alert("Booking request sent!");
+      alert("Message sent successfully!");
+      e.target.reset();
     })
     .catch((error) => {
       console.log(error);
