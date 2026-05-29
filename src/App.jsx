@@ -325,9 +325,13 @@ message: e.target.elements.location.value,
   (786) 862-5928
 </a>
 
-<p className="flex items-center gap-3 font-semibold">
+<a
+  href="mailto:easypassdrivefl@gmail.com"
+  className="flex items-center gap-3 font-semibold"
+>
+  <Mail className="text-blue-600" />
   easypassdrivefl@gmail.com
-</p>
+</a>
 
 <p className="flex items-center gap-3 font-semibold">
   <MapPin className="text-blue-600" />
