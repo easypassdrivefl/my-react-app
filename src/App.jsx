@@ -149,18 +149,15 @@ message: e.target.elements.message?.value || "",
                   <a href="#booking">Book a Lesson</a>
                 </Button>
                 <Button size="lg" className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur hover:bg-white/20 transition" asChild>
-                  <a href="tel:+17868625928">Call Now</a>
-                </Button>
-              <Button size="lg" className="...">
-  <a href="tel:+17868625928">Call Now</a>
-</Button>
-
-<a
-  href="tel:+17868625928"
-  className="text-lg font-semibold text-white hover:underline"
->
+                  <a href="tel:+17868625928">
+  Call Now
+  <br />
   (786) 862-5928
 </a>
+                </Button>
+             
+
+
 
 </div>
         <section className="border-b bg-white">
