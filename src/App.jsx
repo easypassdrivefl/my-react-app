@@ -357,6 +357,13 @@ message: e.target.elements.location.value,
             <p className="mt-3 text-sm">
               Professional driving lessons and road test car rental across Miami-Dade and Broward County.
             </p>
+            <p className="mt-2 text-sm">
+  📞 786-862-5928
+</p>
+
+<p className="text-sm">
+  📧 easypassdrivefl@gmail.com
+</p>
           </div>
 
           <div className="flex flex-wrap gap-5 text-sm">
