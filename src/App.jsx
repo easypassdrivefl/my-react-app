@@ -137,8 +137,14 @@ message: e.target.elements.location.value,
                 Learn to drive safely. Pass with confidence.
               </h1>
               <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90">
-                Easy Pass Drive FL helps teens and adults prepare for the road with patient instructors, flexible booking, and service throughout Miami-Dade and Broward County.
-              </p>
+  Easy Pass Drive FL helps teens and adults prepare for the road with patient instructors, flexible booking, and service throughout Miami-Dade and Broward County.
+</p>
+
+<p className="mt-4 text-xl font-semibold text-white">
+  Call or Text: (786) 862-5928
+</p>
+
+<div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               <div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
                 <Button size="lg" className="rounded-2xl bg-white px-6 py-3 font-semibold text-blue-700 shadow-md hover:bg-slate-100 transition" asChild>
                   <a href="#booking">Book a Lesson</a>
