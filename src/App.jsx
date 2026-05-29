@@ -141,12 +141,7 @@ message: e.target.elements.message?.value || "",
   Easy Pass Drive FL helps teens and adults prepare for the road with patient instructors, flexible booking, and service throughout Miami-Dade and Broward County.
 </p>
 
-<a
-  href="tel:+17868625928"
-  className="mt-4 text-xl font-semibold text-white hover:underline"
->
-  Call or Text: (786) 862-5928
-</a>
+
 
 <div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               
@@ -156,13 +151,18 @@ message: e.target.elements.message?.value || "",
                 <Button size="lg" className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur hover:bg-white/20 transition" asChild>
                   <a href="tel:+17868625928">Call Now</a>
                 </Button>
-              </div>
-            </motion.div>
+              <Button size="lg" className="...">
+  <a href="tel:+17868625928">Call Now</a>
+</Button>
 
-            
-          </div>
-        </section>
+<a
+  href="tel:+17868625928"
+  className="text-lg font-semibold text-white hover:underline"
+>
+  (786) 862-5928
+</a>
 
+</div>
         <section className="border-b bg-white">
           <div className="mx-auto grid max-w-7xl gap-4 px-6 py-8 md:grid-cols-5">
             {[
