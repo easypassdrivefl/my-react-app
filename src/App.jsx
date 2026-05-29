@@ -27,13 +27,13 @@ export default function EasyPassDriveFL() {
       "template_a9c2edp",
       {
   
-   name: e.target.elements.name.value,
-email: e.target.elements.email.value,
-phone: e.target.elements.phone.value,
-service: e.target.elements.service.value,
-date: e.target.elements.date.value,
-location: e.target.elements.location.value,
-message: e.target.elements.location.value,
+   name: e.target.elements.name?.value || "",
+email: e.target.elements.email?.value || "",
+phone: e.target.elements.phone?.value || "",
+service: e.target.elements.service?.value || "Contact Message",
+date: e.target.elements.date?.value || "",
+location: e.target.elements.location?.value || "",
+message: e.target.elements.message?.value || "",
 },
       "Yu3Tx8h1wGc-phNmE"
     )
