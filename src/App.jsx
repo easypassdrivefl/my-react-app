@@ -227,7 +227,7 @@ message: e.target.elements.location.value,
             <p className="font-semibold text-blue-700">Booking Flow</p>
             <h2 className="mt-2 text-3xl font-bold md:text-4xl">Reserve your lesson online</h2>
             <div className="mt-8 space-y-5">
-              {["Select your service", "Choose your preferred date and time", "Enter pickup address and student details", "Submit your booking request", "Receive confirmation by email or text"].map((step, idx) => (
+              {["Select your service", "Choose your preferred date and time", "Enter pickup address and student details", "Submit your booking request", "Receive confirmation by email"].map((step, idx) => (
                 <div key={step} className="flex gap-4">
                   <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-600 font-bold text-white">{idx + 1}</div>
                   <p className="pt-1 font-medium">{step}</p>
