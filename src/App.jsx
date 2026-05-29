@@ -148,18 +148,23 @@ message: e.target.elements.message?.value || "",
                 <Button size="lg" className="rounded-2xl bg-white px-6 py-3 font-semibold text-blue-700 shadow-md hover:bg-slate-100 transition" asChild>
                   <a href="#booking">Book a Lesson</a>
                 </Button>
-                <Button size="lg" className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white backdrop-blur hover:bg-white/20 transition" asChild>
-                  <a href="tel:+17868625928">
-  Call Now
-  <br />
-  (786) 862-5928
-</a>
-                </Button>
+<Button
+  size="lg"
+  className="rounded-2xl border border-white/30 bg-white/10 px-6 py-3 font-semibold text-white"
+>
+  <a href="tel:+17868625928">
+    Call Now
+    <br />
+    (786) 862-5928
+  </a>
+</Button>
              
 
 
-
 </div>
+</motion.div>
+</div>
+</section>
         <section className="border-b bg-white">
           <div className="mx-auto grid max-w-7xl gap-4 px-6 py-8 md:grid-cols-5">
             {[
@@ -355,7 +360,8 @@ message: e.target.elements.message?.value || "",
             </Card>
           </div>
         </section>
-      </main>
+        </main>
+      
 
       <a
         href="tel:+17868625928"
