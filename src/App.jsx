@@ -145,7 +145,7 @@ message: e.target.elements.location.value,
 </p>
 
 <div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-              <div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+              
                 <Button size="lg" className="rounded-2xl bg-white px-6 py-3 font-semibold text-blue-700 shadow-md hover:bg-slate-100 transition" asChild>
                   <a href="#booking">Book a Lesson</a>
                 </Button>
