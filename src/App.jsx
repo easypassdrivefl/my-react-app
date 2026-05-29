@@ -342,12 +342,12 @@ message: e.target.elements.location.value,
             <Card className="rounded-3xl bg-white shadow-sm ring-1 ring-slate-200/70 hover:shadow-md transition-all duration-300">
               <CardContent className="p-8">
                 <h3 className="text-xl font-bold">Send a Message</h3>
-                <div className="mt-6 space-y-4">
-                  <input className="w-full rounded-xl border px-4 py-3" placeholder="Name" />
-                  <input className="w-full rounded-xl border px-4 py-3" placeholder="Email or phone" />
-                  <textarea className="w-full rounded-xl border px-4 py-3" placeholder="How can we help?" rows={5}></textarea>
-                  <Button className="w-full bg-blue-600 text-white py-6 hover:bg-blue-700">Send Message</Button>
-                </div>
+                <form onSubmit={sendEmail} className="mt-6 space-y-4">
+                  <input name="name" className="w-full rounded-xl border px-4 py-3" placeholder="Name" />
+<input name="email" className="w-full rounded-xl border px-4 py-3" placeholder="Email or phone" />
+<textarea name="message" className="w-full rounded-xl border px-4 py-3" placeholder="How can we help?" rows={5} />
+<Button type="submit" className="w-full bg-blue-600 text-white py-6 hover:bg-blue-700">Send Message</Button>
+                </form>
               </CardContent>
             </Card>
           </div>
