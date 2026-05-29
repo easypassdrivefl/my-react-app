@@ -321,11 +321,18 @@ message: e.target.elements.location.value,
               <p className="mt-4 text-slate-600">Call, text, or request a lesson online. We’ll help you choose the right driving service.</p>
               <div className="mt-8 space-y-4">
                 <a className="flex items-center gap-3 font-semibold" href="tel:+17868625928">
-                  <Phone className="text-blue-600" /> (786) 862-5928
-                </a>
-                <p className="flex items-center gap-3 font-semibold">
-                  <MapPin className="text-blue-600" /> Serving Miami-Dade & Broward County by appointment
-                </p>
+  <Phone className="text-blue-600" />
+  (786) 862-5928
+</a>
+
+<p className="flex items-center gap-3 font-semibold">
+  easypassdrivefl@gmail.com
+</p>
+
+<p className="flex items-center gap-3 font-semibold">
+  <MapPin className="text-blue-600" />
+  Serving Miami-Dade & Broward County by appointment
+</p>
               </div>
             </div>
             <Card className="rounded-3xl bg-white shadow-sm ring-1 ring-slate-200/70 hover:shadow-md transition-all duration-300">
