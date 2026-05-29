@@ -324,14 +324,14 @@ message: e.target.elements.message?.value || "",
               <h2 className="mt-2 text-3xl font-bold md:text-4xl">Ready to start driving?</h2>
               <p className="mt-4 text-slate-600">Call, text, or request a lesson online. We’ll help you choose the right driving service.</p>
               <div className="mt-8 space-y-4">
-                <a className="flex items-center gap-3 font-semibold" href="tel:+17868625928">
+                <a className="flex items-center gap-3 font-semibold hover:text-blue-600 cursor-pointer" href="tel:+17868625928">
   <Phone className="text-blue-600" />
   (786) 862-5928
 </a>
 
 <a
   href="mailto:easypassdrivefl@gmail.com"
-  className="flex items-center gap-3 font-semibold"
+  className="flex items-center gap-3 font-semibold hover:text-blue-600 cursor-pointer"
 >
   <Mail className="text-blue-600" />
   easypassdrivefl@gmail.com
