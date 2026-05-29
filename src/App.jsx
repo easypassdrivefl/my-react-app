@@ -141,9 +141,12 @@ message: e.target.elements.message?.value || "",
   Easy Pass Drive FL helps teens and adults prepare for the road with patient instructors, flexible booking, and service throughout Miami-Dade and Broward County.
 </p>
 
-<p className="mt-4 text-xl font-semibold text-white">
+<a
+  href="tel:+17868625928"
+  className="mt-4 text-xl font-semibold text-white hover:underline"
+>
   Call or Text: (786) 862-5928
-</p>
+</a>
 
 <div className="mt-10 mb-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               
